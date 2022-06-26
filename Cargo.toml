@@ -1,0 +1,19 @@
+[package]
+name = "example-udp"
+version = "0.0.0"
+edition = "2021"
+authors = ["pinkforest"]
+description = "Lunatic UDP Examples"
+license = "Apache-2.0/MIT"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lunatic = { path = "../rust-lib" }
+
+[[bin]]
+name = "udp_echo_client"
+
+[[bin]]
+name = "udp_ping_pong"
