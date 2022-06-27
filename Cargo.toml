@@ -10,7 +10,7 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-lunatic = { path = "../rust-lib" }
+lunatic = { git = "https://github.com/lunatic-solutions/lunatic-rs"  }
 
 [[bin]]
 name = "udp_echo_client"
